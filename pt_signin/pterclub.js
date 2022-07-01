@@ -1,5 +1,5 @@
 const chavy = init()
-const cookieName = 'pterclub'
+const cookieName = 'PTERCLUB'
 const KEY_homeurl = 'chavy_home_url_pterclub'
 const KEY_homeheader = 'chavy_home_header_pterclub'
 
