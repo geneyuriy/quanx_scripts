@@ -7,3 +7,8 @@ hostname = hdhome.org
 
 ^https?:\/\/hdtime\.org\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/hdtime_cookie.js
 hostname = hdtime.org
+
+# discfan每日自动签到
+
+^https?:\/\/discfan\.net\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/discfan_cookie.js
+hostname = discfan.net
