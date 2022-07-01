@@ -89,8 +89,9 @@ function WebGetCurrentInfo(ptCookie){
     let webGetCurrentInfo = {
       url : `https://hdhome.org/userdetails.php?id=${uid}`,
       headers : {
-        'Accept': 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
-        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6',
+        'Accept-Encoding': 'gzip, deflate, br',
         'Connection': 'keep-alive',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
         'Cookie': ptCookie
