@@ -1,5 +1,4 @@
 # hdhome每日自动签到
 
-^https?:\/\/hdhome\.org\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/yuriy_scripts/main/pt_signin/hdhome.js
-
+^https?:\/\/hdhome\.org\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/hdhome_cookie.js
 hostname = hdhome.org
