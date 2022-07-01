@@ -21,9 +21,8 @@ function randomStr(){
 
 // Web端登录获取Cookie
 function GetWebCookie() {
-  magicJS.logError('cookie:' + magicJS.request.headers.Cookie);
   // 获取新的session_id
-  if (magicJS.request.headers.Cookie.includes('c_secure')) {
+  if (magicJS.request.headers.Cookie) {
       // 持久化cookie
       magicJS.write(hdhomeSessionKey, session_id);
       magicJS.write(hdhomeCookieKey, magicJS.request.headers.Cookie);
