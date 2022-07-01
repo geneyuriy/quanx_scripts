@@ -3,14 +3,17 @@ const cookieName = 'HDHOME'
 const KEY_homeurl = 'chavy_home_url_hdhome'
 const KEY_homeheader = 'chavy_home_header_hdhome'
 
-const signinfo = {}
+const signinfo = {signweb: null}
 let VAL_homeurl = chavy.getdata(KEY_homeurl)
 let VAL_homeheader = chavy.getdata(KEY_homeheader)
 
 ;(exec = async () => {
   chavy.log(`🔔 ${cookieName} 开始签到`)
-  await signin()
-  showmsg()
+  if(!!VAL_homeheader === false) {
+    chavy.log(`❌ 请先在浏览器登录获取cookie`)
+  } else {
+    await signin()
+  }
 })()
 .catch((e) => chavy.log(`❌ ${cookieName} 签到失败: ${e}`))
 .finally(() => chavy.done())
