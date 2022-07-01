@@ -3,7 +3,7 @@ const cookieName = 'HDHOME'
 const KEY_homeurl = 'chavy_home_url_hdhome'
 const KEY_homeheader = 'chavy_home_header_hdhome'
 
-const signinfo = {signweb: null}
+const signinfo = {signweb: ''}
 let VAL_homeurl = chavy.getdata(KEY_homeurl)
 let VAL_homeheader = chavy.getdata(KEY_homeheader)
 
