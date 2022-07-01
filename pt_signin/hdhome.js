@@ -137,7 +137,7 @@ function WebGetCurrentInfo(ptCookie){
     let subTitle = '';
     let content = '';
     // 获取Cookie
-    let ptCookie = magicJS.read(hdhomeCookieKey);
+    let ptCookie = magicJS.read(hdhomeCookieKey) || `c_secure_login=bm9wZQ%3D%3D; c_secure_pass=2c6b8ea6567e88a13fbcd124f41f3f08; c_secure_ssl=bm9wZQ%3D%3D; c_secure_tracker_ssl=bm9wZQ%3D%3D; c_secure_uid=NzgyMTQ%3D`;
 
     if (!!ptCookie === false){
       magicJS.logWarning(`没有读取到有效cookie，请访问${loginUrl}进行登录`);
