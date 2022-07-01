@@ -3,7 +3,7 @@ const cookieKey = 'discfan_cookie';
 
 
 const chavy = init()
-const cookieName = 'HDHOME'
+const cookieName = 'DISCFAN'
 const KEY_homeurl = 'chavy_home_url_discfan'
 const KEY_homeheader = 'chavy_home_header_discfan'
 
