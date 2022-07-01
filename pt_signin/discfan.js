@@ -9,7 +9,6 @@ let VAL_homeheader = chavy.getdata(KEY_homeheader)
 
 ;(exec = async () => {
   chavy.log(`🔔 ${cookieName} 开始签到`)
-  chavy.log(typeof !!VAL_homeheader)
   if(!!VAL_homeheader === false) {
     chavy.log(`❌ 请先在浏览器登录获取cookie`)
   } else {
@@ -48,10 +47,10 @@ function signin() {
 
 function showmsg() {
   let subTitle, detail
-  if (signinfo.signweb.includes('签到成功')) {
+  if (signinfo.signweb.includes('簽到成功')) {
     subTitle = '签到: 成功'
   }
-  else if (signinfo.signweb.includes('您今天已经签到过了，请勿重复刷新。')) {
+  else if (signinfo.signweb.includes('您今天已經簽到過了，請勿重複刷新。')) {
     subTitle = '签到: 重复'
   } 
   chavy.msg(cookieName, subTitle, detail)
