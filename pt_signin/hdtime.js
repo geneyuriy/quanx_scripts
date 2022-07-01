@@ -1,7 +1,7 @@
 const chavy = init()
-const cookieName = 'HDHOME'
-const KEY_homeurl = 'chavy_home_url_hdhome'
-const KEY_homeheader = 'chavy_home_header_hdhome'
+const cookieName = 'HDTIME'
+const KEY_homeurl = 'chavy_home_url_hdtime'
+const KEY_homeheader = 'chavy_home_header_hdtime'
 
 const signinfo = {}
 let VAL_homeurl = chavy.getdata(KEY_homeurl)
@@ -17,12 +17,12 @@ let VAL_homeheader = chavy.getdata(KEY_homeheader)
 
 function signin() {
   return new Promise((resolve, reject) => {
-    const url = { url: `https://hdhome.org/attendance.php`, headers: JSON.parse(VAL_homeheader) }
+    const url = { url: `https://hdtime.org/attendance.php`, headers: JSON.parse(VAL_homeheader) }
     url.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-    url.headers['Origin'] = 'https://hdhome.org'
+    url.headers['Origin'] = 'https://hdtime.org'
     url.headers['Accept-Encoding'] = 'gzip, deflate, br'
     url.headers['Content-Type'] = 'application/x-www-form-urlencoded'
-    url.headers['Host'] = 'hdhome.org'
+    url.headers['Host'] = 'hdtime.org'
     url.headers['Connection'] = 'keep-alive'
     url.headers['Accept-Language'] = 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6'
     url.body = VAL_homeurl.split('?')[1]
