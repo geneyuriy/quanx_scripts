@@ -26,7 +26,7 @@ function signin() {
     url.headers['Origin'] = 'https://discfan.net'
     url.headers['Accept-Encoding'] = 'gzip, deflate, br'
     url.headers['Content-Type'] = 'application/x-www-form-urlencoded'
-    url.headers['Host'] = 'discfan.org'
+    url.headers['Host'] = 'discfan.net'
     url.headers['Connection'] = 'keep-alive'
     url.headers['Accept-Language'] = 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6'
     url.body = VAL_homeurl.split('?')[1]
