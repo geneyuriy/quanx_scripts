@@ -22,25 +22,14 @@ function randomStr(){
 // Web端登录获取Cookie
 function GetWebCookie() {
   magicJS.logError('cookie:' + magicJS.request.headers.Cookie);
-  let match_str = magicJS.request.headers.Cookie.match(/c_secure_uid=.*;/);
-  session_id = match_str != null ? match_str[0] : null;
   // 获取新的session_id
-  if (session_id) {
-    // 获取持久化的session_id
-    old_session_id = magicJS.read(hdhomeSessionKey) != null ? magicJS.read(hdhomeSessionKey) : '';
-    // 获取新的session_id
-    console.log({ 'old_session_id': old_session_id, 'new_session_id': session_id });
-    // 比较差异
-    if (old_session_id == session_id) {
-      magicJS.logInfo('网页版cookie没有变化，无需更新。');
-    }
-    else {
+  if (magicJS.request.headers.Cookie.includes('c_secure_uid')) {
       // 持久化cookie
       magicJS.write(hdhomeSessionKey, session_id);
       magicJS.write(hdhomeCookieKey, magicJS.request.headers.Cookie);
       magicJS.logInfo('写入cookie ' + magicJS.request.headers.Cookie);
       magicJS.notify(scriptName, '', '🎈获取cookie成功！！');
-    }
+    
   }
   else {
     magicJS.logError('没有读取到有效的Cookie信息。');
