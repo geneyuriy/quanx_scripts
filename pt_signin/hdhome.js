@@ -21,6 +21,7 @@ function randomStr(){
 
 // Web端登录获取Cookie
 function GetWebCookie() {
+  magicJS.logInfo('cookie:' + magicJS.request.headers.Cookie);
   let match_str = magicJS.request.headers.Cookie.match(/c_secure_uid=.*;/);
   session_id = match_str != null ? match_str[0] : null;
   // 获取新的session_id
