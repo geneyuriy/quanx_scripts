@@ -5,16 +5,16 @@
           "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/hdhome.js, img-url=https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/images\/hdhome.png, tag=hdhome, enabled=true"
        },
        {
-        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/hdtime.js, img-url=https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/images\/hdtime.png, tag=hdtime, enabled=true"
+        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/hdtime.js, img-url=https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/images/hdtime.png, tag=hdtime, enabled=true"
        },
        {
-        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/discfan.js, img-url=https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/images\/discfan.png, tag=discfan, enabled=true"
+        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/discfan.js, img-url=https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/images/discfan.png, tag=discfan, enabled=true"
        },
        {
-        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/ourbits.js, img-url=https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/images\/ourbits.png, tag=ourbits, enabled=true"
+        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/ourbits.js, img-url=https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/images/ourbits.png, tag=ourbits, enabled=true"
        },
        {
-        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/pterclub.js, img-url=https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/images\/pterclub.png, tag=pterclub, enabled=true"
+        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/pterclub.js, img-url=https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/images/pterclub.png, tag=pterclub, enabled=true"
        }
     ],
     "description":"PT网站 签到"
