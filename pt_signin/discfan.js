@@ -46,7 +46,8 @@ function signin() {
 
 
 function showmsg() {
-  let subTitle, detail
+  let subTitle = ''
+  let detail = ''
   if (signinfo.signweb.includes('簽到成功')) {
     subTitle = '签到: 成功'
   }
