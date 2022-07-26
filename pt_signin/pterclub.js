@@ -41,7 +41,8 @@ function signin() {
 
 
 function showmsg() {
-  let subTitle, detail
+  let subTitle = ''
+  let detail = ''
   if (signinfo.signweb.status === '1') {
     subTitle = signinfo.signweb.message.replace(/<\/?[p|b]>/g, '')
   }
