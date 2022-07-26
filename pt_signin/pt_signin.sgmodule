@@ -1,0 +1,21 @@
+#!name=PT网站签到
+#!desc高清时光，港知堂，Ourbits，猫站
+[MITM]
+hostname=%APPEND% hdtime.org,discfan.net,ourbits.club,pterclub.com
+
+[Script]
+# hdhome每日自动签到
+HDHOME = type=http-request, pattern= ^https?:\/\/hdhome\.org\/userdetails\.php\?id=(\d{3,10})$, requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/hdhome_cookie.js
+, argument=
+# hdtime每日自动签到
+HDTIME = type=http-request, pattern= ^https?:\/\/hdtime\.org\/userdetails\.php\?id=(\d{3,10})$, requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/hdtime_cookie.js
+, argument=
+# discfan每日自动签到
+DISCFAN = type=http-request, pattern= ^https?:\/\/discfan\.net\/userdetails\.php\?id=(\d{3,10})$, requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/disfan_cookie.js
+, argument=
+# ourbits每日自动签到
+OURBITS = type=http-request, pattern= ^https?:\/\/ourbits\.club\/userdetails\.php\?id=(\d{3,10})$, requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/ourbits_cookie.js
+, argument=
+# pterclub每日自动签到
+PTER = type=http-request, pattern= ^https?:\/\/pterclub\.com\/userdetails\.php\?id=(\d{3,10})$, requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/pterclub_cookie.js
+, argument=
