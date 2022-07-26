@@ -1,5 +1,5 @@
 #!name=PT网站签到
-#!desc高清时光，港知堂，Ourbits，猫站
+#!desc=高清时光，港知堂，Ourbits，猫站
 [MITM]
 hostname=%APPEND% hdtime.org,discfan.net,ourbits.club,pterclub.com
 
