@@ -4,7 +4,7 @@ const cookieKey = 'hdtime_cookie';
 
 
 const chavy = init()
-const cookieName = 'HDHOME'
+const cookieName = 'HDTIME'
 const KEY_homeurl = 'chavy_home_url_hdtime'
 const KEY_homeheader = 'chavy_home_header_hdtime'
 
