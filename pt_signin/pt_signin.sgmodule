@@ -9,7 +9,7 @@ HDHOME = type=http-request, pattern= "^https?:\/\/hdhome\.org\/userdetails\.php\
 # hdtime每日自动签到
 HDTIME = type=http-request, pattern= "^https?:\/\/hdtime\.org\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/hdtime_cookie.js, argument=
 # discfan每日自动签到
-DISCFAN = type=http-request, pattern= "^https?:\/\/discfan\.net\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/disfan_cookie.js, argument=
+DISCFAN = type=http-request, pattern= "^https?:\/\/discfan\.net\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/discfan_cookie.js, argument=
 # ourbits每日自动签到
 OURBITS = type=http-request, pattern= "^https?:\/\/ourbits\.club\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/ourbits_cookie.js, argument=
 # pterclub每日自动签到
