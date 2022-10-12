@@ -20,3 +20,7 @@ hostname = hdhome.org,hdtime.org,discfan.net,ourbits.club,pterclub.com
 # pterclub每日自动签到
 
 ^https?:\/\/pterclub\.com\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/pterclub_cookie.js
+
+# kamept.com每日自动签到
+^https?:\/\/kamept\.com\/userdetails\.php\?id=(\d{3,10})$ url script-request-header https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/kamept_cookie.js
+
