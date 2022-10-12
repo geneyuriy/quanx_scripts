@@ -15,6 +15,9 @@
        },
        {
         "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/pterclub.js, img-url=highlighter.system, tag=pterclub, enabled=true"
+       },
+       {
+        "config":"0 8 * * * https:\/\/raw.githubusercontent.com\/geneyuriy\/quanx_scripts\/main\/pt_signin\/kamept.js, img-url=highlighter.system, tag=kamept, enabled=true"
        }
     ],
     "description":"PT网站 签到"
