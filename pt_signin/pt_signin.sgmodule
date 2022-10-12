@@ -13,4 +13,6 @@ DISCFAN = type=http-request, pattern= "^https?:\/\/discfan\.net\/userdetails\.ph
 # ourbits每日自动签到
 OURBITS = type=http-request, pattern= "^https?:\/\/ourbits\.club\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/ourbits_cookie.js, argument=
 # pterclub每日自动签到
-PTER = type=http-request, pattern= "^https?:\/\/pterclub\.com\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/pterclub_cookie.js, argument=
+PTER =# pterclub每日自动签到 type=http-request, pattern= "^https?:\/\/pterclub\.com\/userdetails\.php\?id=(\d{3,10})$", requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/pterclub_cookie.js, argument=
+# kamept每日自动签到
+KAMEPT = type=http-request, pattern= "^https?:\/\/kamept\.com\/userdetails\.php\?id=(\d{3,10})$",  requires-body=0, timeout=10, script-path= https://raw.githubusercontent.com/geneyuriy/quanx_scripts/main/pt_signin/kamept_cookie.js, argument=
