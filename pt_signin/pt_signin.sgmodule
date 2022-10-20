@@ -1,7 +1,7 @@
 #!name=PT网站签到
 #!desc=高清时光，港知堂，Ourbits，猫站
 [MITM]
-hostname=%APPEND% hdhome.org,hdtime.org,discfan.net,ourbits.club,pterclub.com
+hostname=%APPEND% hdhome.org,hdtime.org,discfan.net,ourbits.club,pterclub.com,kamept.com
 
 [Script]
 # hdhome每日自动签到
