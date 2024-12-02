@@ -1,6 +1,6 @@
 # NAME: private_tracker
 # AUTHOR: yuri
-# UPDATED: 2024-12-02 11:05
+# UPDATED: 2024-12-02 11:18
 DOMAIN-SUFFIX,piggo.me
 DOMAIN-SUFFIX,keepfrds.com
 DOMAIN-SUFFIX,rousi.zip
@@ -8,7 +8,8 @@ DOMAIN-SUFFIX,pterclub.com
 DOMAIN-SUFFIX,open.cd
 DOMAIN-SUFFIX,hdhome.org
 DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,on.springsunday.net
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,hdatmos.club
 DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,hdtime.org
 DOMAIN-SUFFIX,discfan.net
@@ -17,3 +18,5 @@ DOMAIN-SUFFIX,ptcafe.club
 DOMAIN-SUFFIX,chdbits.xyz
 DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,kamept.com
+DOMAIN-SUFFIX,leaves.red
+DOMAIN-SUFFIX,dicmusic.com
